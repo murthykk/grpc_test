@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package test;
+
+import "proto/base.proto";
+
+message AMessage {
+  int32 a = 1;
+  int64 b = 2;
+  BaseMessage c = 3;
+}

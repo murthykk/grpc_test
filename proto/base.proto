@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package test;
+
+message BaseMessage {
+  string what = 1;
+  string is = 2;
+  string this = 3;
+}
